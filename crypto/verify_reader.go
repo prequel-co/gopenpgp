@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	openpgp "github.com/ProtonMail/go-crypto/openpgp/v2"
+	openpgp "github.com/prequel-co/go-crypto/openpgp/v2"
 )
 
 // VerifyDataReader is used for reading data that should be verified with a signature.

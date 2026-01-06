@@ -6,14 +6,14 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ProtonMail/go-crypto/openpgp/ecdh"
-	"github.com/ProtonMail/go-crypto/openpgp/ecdsa"
-	"github.com/ProtonMail/go-crypto/openpgp/ed25519"
-	"github.com/ProtonMail/go-crypto/openpgp/ed448"
-	"github.com/ProtonMail/go-crypto/openpgp/eddsa"
-	"github.com/ProtonMail/go-crypto/openpgp/elgamal"
-	"github.com/ProtonMail/go-crypto/openpgp/x25519"
-	"github.com/ProtonMail/go-crypto/openpgp/x448"
+	"github.com/prequel-co/go-crypto/openpgp/ecdh"
+	"github.com/prequel-co/go-crypto/openpgp/ecdsa"
+	"github.com/prequel-co/go-crypto/openpgp/ed25519"
+	"github.com/prequel-co/go-crypto/openpgp/ed448"
+	"github.com/prequel-co/go-crypto/openpgp/eddsa"
+	"github.com/prequel-co/go-crypto/openpgp/elgamal"
+	"github.com/prequel-co/go-crypto/openpgp/x25519"
+	"github.com/prequel-co/go-crypto/openpgp/x448"
 )
 
 // Clear zeroes the sensitive data in the session key.

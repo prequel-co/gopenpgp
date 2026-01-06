@@ -3,7 +3,7 @@ package crypto
 import (
 	"io"
 
-	armorHelper "github.com/ProtonMail/gopenpgp/v3/armor"
+	armorHelper "github.com/prequel-co/gopenpgp/v3/armor"
 )
 
 type PGPEncoding int8

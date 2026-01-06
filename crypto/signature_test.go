@@ -9,10 +9,10 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	"github.com/ProtonMail/gopenpgp/v3/armor"
-	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
+	"github.com/prequel-co/gopenpgp/v3/armor"
+	"github.com/prequel-co/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/internal"
 	"github.com/stretchr/testify/assert"
 )
 

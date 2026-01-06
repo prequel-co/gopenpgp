@@ -7,9 +7,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/crypto"
-	"github.com/ProtonMail/gopenpgp/v3/profile"
+	"github.com/prequel-co/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/crypto"
+	"github.com/prequel-co/gopenpgp/v3/profile"
 )
 
 func cloneTestData() (a, b []byte) {

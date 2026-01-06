@@ -1,6 +1,6 @@
 package crypto
 
-import "github.com/ProtonMail/go-crypto/openpgp/packet"
+import "github.com/prequel-co/go-crypto/openpgp/packet"
 
 type SignProfile interface {
 	SignConfig() *packet.Config

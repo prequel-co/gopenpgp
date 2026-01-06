@@ -10,9 +10,9 @@ import (
 	"net/textproto"
 
 	gomime "github.com/ProtonMail/go-mime"
-	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/crypto"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+	"github.com/prequel-co/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/crypto"
+	"github.com/prequel-co/gopenpgp/v3/internal"
 )
 
 // MIMECallbacks defines callback methods to process a MIME message.

@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	packet "github.com/ProtonMail/go-crypto/openpgp/packet"
-	openpgp "github.com/ProtonMail/go-crypto/openpgp/v2"
-	"github.com/ProtonMail/gopenpgp/v3/armor"
-	"github.com/ProtonMail/gopenpgp/v3/constants"
+	packet "github.com/prequel-co/go-crypto/openpgp/packet"
+	openpgp "github.com/prequel-co/go-crypto/openpgp/v2"
+	"github.com/prequel-co/gopenpgp/v3/armor"
+	"github.com/prequel-co/gopenpgp/v3/constants"
 )
 
 // Key contains a single private or public key.

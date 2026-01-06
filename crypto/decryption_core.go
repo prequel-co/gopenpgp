@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	openpgp "github.com/ProtonMail/go-crypto/openpgp/v2"
-	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
+	openpgp "github.com/prequel-co/go-crypto/openpgp/v2"
+	"github.com/prequel-co/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/internal"
 )
 
 type pgpSplitReader struct {

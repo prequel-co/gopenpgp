@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/profile"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
+	"github.com/prequel-co/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/profile"
 	"github.com/stretchr/testify/assert"
 )
 
