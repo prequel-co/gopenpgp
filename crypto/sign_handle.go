@@ -8,12 +8,12 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/ProtonMail/go-crypto/openpgp/armor"
-	"github.com/ProtonMail/go-crypto/openpgp/clearsign"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	openpgp "github.com/ProtonMail/go-crypto/openpgp/v2"
-	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+	"github.com/prequel-co/go-crypto/openpgp/armor"
+	"github.com/prequel-co/go-crypto/openpgp/clearsign"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
+	openpgp "github.com/prequel-co/go-crypto/openpgp/v2"
+	"github.com/prequel-co/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/internal"
 )
 
 type signatureHandle struct {

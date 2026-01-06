@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ProtonMail/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/constants"
 
-	pgpErrors "github.com/ProtonMail/go-crypto/openpgp/errors"
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
+	pgpErrors "github.com/prequel-co/go-crypto/openpgp/errors"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
 )
 
 // SessionKey stores a decrypted session key.

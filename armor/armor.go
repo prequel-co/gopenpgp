@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ProtonMail/go-crypto/openpgp/armor"
-	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+	"github.com/prequel-co/go-crypto/openpgp/armor"
+	"github.com/prequel-co/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/internal"
 )
 
 // ArmorKey armors input as a public key.

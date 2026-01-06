@@ -1,7 +1,7 @@
 package crypto
 
 import (
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
 )
 
 // Integer enum for go-mobile compatibility.

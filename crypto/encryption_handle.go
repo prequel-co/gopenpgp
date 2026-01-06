@@ -4,10 +4,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ProtonMail/go-crypto/openpgp/armor"
-	openpgp "github.com/ProtonMail/go-crypto/openpgp/v2"
-	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+	"github.com/prequel-co/go-crypto/openpgp/armor"
+	openpgp "github.com/prequel-co/go-crypto/openpgp/v2"
+	"github.com/prequel-co/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/internal"
 )
 
 // encryptionHandle collects the configuration parameters for encrypting a message.

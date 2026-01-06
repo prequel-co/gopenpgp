@@ -1,6 +1,6 @@
 package crypto
 
-import "github.com/ProtonMail/gopenpgp/v3/constants"
+import "github.com/prequel-co/gopenpgp/v3/constants"
 
 // EncryptionHandleBuilder allows to configure a decryption handle to decrypt an OpenPGP message.
 type EncryptionHandleBuilder struct {

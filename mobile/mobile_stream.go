@@ -8,7 +8,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/ProtonMail/gopenpgp/v3/crypto"
+	"github.com/prequel-co/gopenpgp/v3/crypto"
 )
 
 // Mobile2GoWriter is used to wrap a writer in the mobile app runtime,

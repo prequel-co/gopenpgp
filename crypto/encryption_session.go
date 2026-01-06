@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
 )
 
 // decryptSessionKey returns the decrypted session key from one or multiple binary encrypted session key packets.

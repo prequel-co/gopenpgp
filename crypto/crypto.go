@@ -15,7 +15,7 @@ package crypto
 import (
 	"time"
 
-	"github.com/ProtonMail/gopenpgp/v3/profile"
+	"github.com/prequel-co/gopenpgp/v3/profile"
 )
 
 type PGPHandle struct {

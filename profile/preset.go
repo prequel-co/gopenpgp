@@ -3,9 +3,9 @@ package profile
 import (
 	"crypto"
 
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	"github.com/ProtonMail/go-crypto/openpgp/s2k"
-	"github.com/ProtonMail/gopenpgp/v3/constants"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
+	"github.com/prequel-co/go-crypto/openpgp/s2k"
+	"github.com/prequel-co/gopenpgp/v3/constants"
 )
 
 // Default returns a custom profile that support features

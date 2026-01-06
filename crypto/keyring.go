@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	openpgp "github.com/ProtonMail/go-crypto/openpgp/v2"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
+	openpgp "github.com/prequel-co/go-crypto/openpgp/v2"
 )
 
 // KeyRing contains multiple private and public keys.

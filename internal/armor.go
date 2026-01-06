@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ProtonMail/go-crypto/openpgp/armor"
+	"github.com/prequel-co/go-crypto/openpgp/armor"
 )
 
 // Unarmor unarmors an armored string.

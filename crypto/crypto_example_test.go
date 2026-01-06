@@ -7,8 +7,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/profile"
+	"github.com/prequel-co/gopenpgp/v3/constants"
+	"github.com/prequel-co/gopenpgp/v3/profile"
 )
 
 const examplePubKey = `-----BEGIN PGP PUBLIC KEY BLOCK-----

@@ -4,8 +4,8 @@ package profile
 import (
 	"crypto"
 
-	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	"github.com/ProtonMail/go-crypto/openpgp/s2k"
+	"github.com/prequel-co/go-crypto/openpgp/packet"
+	"github.com/prequel-co/go-crypto/openpgp/s2k"
 )
 
 const weakMinRSABits = 1023
